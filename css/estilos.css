@@ -34,6 +34,7 @@ p{
   border-radius: 40px;
 }
 
+
 .tecla {
   background-color: #ffffff;
   border-radius: 20px;
@@ -44,7 +45,7 @@ p{
   font-weight: bold;
   line-height: 120px;
   text-align: center;
-  width: 80px;
+  width: 85px;
   margin-top: 80px;
 }
 
@@ -55,4 +56,32 @@ p{
   box-shadow: 3px 3px 0 #424242 inset;
   color: #ffffff;
   outline: none;
+}
+
+
+@media screen and (min-width:320px){
+  .piano{
+    width: 300px;
+    height: 110px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  .tecla {
+    border-radius: 10px;
+    height: 70px;
+    font-size: 13px;
+    line-height: 10px;
+    width: 30px;
+    margin-top: 25px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  
+  p{
+    font-size: 18px;
+  }
+  
 }
